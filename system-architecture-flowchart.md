@@ -256,7 +256,7 @@ flowchart TD
     E --> F[Hitung Days Saved:<br/>Days Saved = Laycan End - Actual End]
     F --> G[Hitung Dispatch Amount:<br/>Dispatch = Days Saved × Dispatch Rate]
     
-    H --> M
+    G --> M
     
     D -->|✅ Actual End = Laycan End| I[ON TIME<br/>Loading tepat waktu]
     I --> J[Tidak ada biaya tambahan]
@@ -266,7 +266,7 @@ flowchart TD
     K --> L[Hitung Days Delay:<br/>Days Delay = Actual End - Laycan End]
     L --> N[Hitung Demurrage Amount:<br/>Demurrage = Days Delay × Demurrage Rate]
     
-    O --> M
+    N --> M
     
     M[Generate Report]
     M --> P[Report berisi:<br/>━━━━━━━━━━━━━━━<br/>📋 Contract Details<br/>📅 Schedule Timeline<br/>🚢 Barge Lineup<br/>⏸️ Idle Time Records<br/>📊 Actual vs Planned<br/>💰 Dispatch/Demurrage Amount<br/>💵 Total Cost/Savings]
