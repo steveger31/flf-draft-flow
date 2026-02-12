@@ -1,6 +1,6 @@
 # FLF Scheduling System - Business Process Flowchart
 
-## Penjelasan untuk User Awam
+## Flowchart Sistem
 
 Sistem FLF Scheduling adalah sistem untuk mengelola proses penjualan dan pengiriman batubara dari Turangga Resources kepada buyer. Proses dimulai dari pendaftaran buyer, pembuatan kontrak penjualan, penjadwalan loading batubara menggunakan FLF (Floating Loading Facility), pengelolaan waktu idle (downtime), hingga perhitungan biaya dispatch/demurrage.
 
@@ -394,3 +394,4 @@ graph LR
 - System memberikan warning jika ada Laycan Violation, tapi user bisa override jika diperlukan
 - Idle Time bersifat **optional** - hanya dibuat jika memang ada downtime FLF
 - Perhitungan Dispatch/Demurrage dilakukan otomatis oleh system setelah loading selesai
+
