@@ -280,11 +280,11 @@ flowchart TD
 **Penjelasan:**
 - **Dispatch**: Bonus yang diterima buyer jika loading selesai lebih cepat dari Laycan End
   - Contoh: Laycan End = 10 Jan, Actual End = 8 Jan → Days Saved = 2 hari
-  - Jika Dispatch Rate = $1000/hari → Dispatch Amount = 2 × $1000 = $2000 (buyer dapat bonus)
+  - Jika Dispatch Rate = $1000/hari → Dispatch Amount = 2 × $1000 = $2000 
 
 - **Demurrage**: Penalty yang dibayar Turangga jika loading terlambat melewati Laycan End
   - Contoh: Laycan End = 10 Jan, Actual End = 12 Jan → Days Delay = 2 hari
-  - Jika Demurrage Rate = $1500/hari → Demurrage Amount = 2 × $1500 = $3000 (Turangga bayar penalty)
+  - Jika Demurrage Rate = $1500/hari → Demurrage Amount = 2 × $1500 = $3000 
 
 ---
 
@@ -394,6 +394,7 @@ graph LR
 - System memberikan warning jika ada Laycan Violation, tapi user bisa override jika diperlukan
 - Idle Time bersifat **optional** - hanya dibuat jika memang ada downtime FLF
 - Perhitungan Dispatch/Demurrage dilakukan otomatis oleh system setelah loading selesai
+
 
 
 
