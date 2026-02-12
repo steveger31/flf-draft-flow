@@ -50,9 +50,9 @@ graph TB
 
 ---
 
-## 2. LINEAR PROCESS FLOW (Alur Linear Sederhana)
+## 2. LINEAR PROCESS FLOW 
 
-Flowchart paling sederhana: dari awal sampai akhir tanpa cabang kompleks.
+
 
 ```mermaid
 graph LR
@@ -152,7 +152,7 @@ graph TD
 
 ---
 
-## 5. BLOCK DIAGRAM (Diagram Blok Sederhana)
+## 5. BLOCK DIAGRAM
 
 Menunjukkan komponen utama sistem dan hubungannya.
 
@@ -204,7 +204,7 @@ graph TB
 
 ## 6. STEP-BY-STEP VISUAL (Langkah demi Langkah)
 
-Paling sederhana: numbered steps dengan icon.
+
 
 ```mermaid
 graph TD
@@ -236,7 +236,7 @@ graph TD
 
 ## 7. ROLE-BASED SIMPLE FLOW
 
-Flowchart berdasarkan peran, sangat sederhana.
+
 
 ```mermaid
 graph LR
@@ -267,3 +267,4 @@ graph LR
 ## Kesimpulan
 
 Dokumen ini menyediakan 7 perspektif berbeda untuk memahami FLF Scheduling System, mulai dari swimlane diagram yang menunjukkan pembagian peran, hingga role-based flow yang merangkum interaksi antar komponen sistem. Setiap diagram dirancang untuk memberikan pemahaman yang komprehensif tentang proses bisnis dari sudut pandang yang berbeda.
+
