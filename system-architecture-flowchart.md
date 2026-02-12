@@ -141,14 +141,9 @@ flowchart TD
     E -->|✅ Valid| G[POST /api/contracts]
     G --> H[Simpan ke database]
     H --> I[✅ Contract tersimpan]
-```
 
-**Penjelasan:** 
-- **Laycan**: Periode waktu yang disepakati untuk loading batubara
-- **Dispatch Rate**: Bonus yang diterima buyer jika loading selesai lebih cepat dari Laycan End
-- **Demurrage Rate**: Penalty yang dibayar Turangga jika loading terlambat melewati Laycan End
 
----
+
 
 ### FASE 2: SCHEDULING (Penjadwalan Loading)
 
@@ -394,6 +389,7 @@ graph LR
 - System memberikan warning jika ada Laycan Violation, tapi user bisa override jika diperlukan
 - Idle Time bersifat **optional** - hanya dibuat jika memang ada downtime FLF
 - Perhitungan Dispatch/Demurrage dilakukan otomatis oleh system setelah loading selesai
+
 
 
 
