@@ -343,7 +343,7 @@ gantt
 - Laycan End: 10 Jan 2024
 - Actual End: 8 Jan 2024
 - Days Saved: 2 hari
-- **Dispatch Amount: 2 × $1,000 = $2,000** (buyer dapat bonus)
+- **Dispatch Amount: 2 × $1,000 = $2,000** 
 
 ---
 
@@ -394,6 +394,7 @@ graph LR
 - System memberikan warning jika ada Laycan Violation, tapi user bisa override jika diperlukan
 - Idle Time bersifat **optional** - hanya dibuat jika memang ada downtime FLF
 - Perhitungan Dispatch/Demurrage dilakukan otomatis oleh system setelah loading selesai
+
 
 
 
