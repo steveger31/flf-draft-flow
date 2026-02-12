@@ -79,9 +79,9 @@ flowchart TD
     
     CalculateActual --> CompareLaycan{Bandingkan dengan<br/>Laycan Contract}
     
-    CompareLaycan -->|⚡ Loading lebih cepat| CalculateDispatch[7️⃣ Calculate DISPATCH<br/>Bonus untuk buyer]
+    CompareLaycan -->|⚡ Loading lebih cepat| CalculateDispatch[7️⃣ Calculate DISPATCH<br/>]
     CompareLaycan -->|⏱️ Loading tepat waktu| NoExtraCharge[Tidak ada biaya tambahan]
-    CompareLaycan -->|🐌 Loading terlambat| CalculateDemurrage[7️⃣ Calculate DEMURRAGE<br/>Penalty untuk Turangga]
+    CompareLaycan -->|🐌 Loading terlambat| CalculateDemurrage[7️⃣ Calculate DEMURRAGE<br/>]
     
     CalculateDispatch --> DispatchFormula[Formula Dispatch:<br/>Dispatch = Days Saved × Dispatch Rate]
     CalculateDemurrage --> DemurrageFormula[Formula Demurrage:<br/>Demurrage = Days Delay × Demurrage Rate]
@@ -394,4 +394,5 @@ graph LR
 - System memberikan warning jika ada Laycan Violation, tapi user bisa override jika diperlukan
 - Idle Time bersifat **optional** - hanya dibuat jika memang ada downtime FLF
 - Perhitungan Dispatch/Demurrage dilakukan otomatis oleh system setelah loading selesai
+
 
