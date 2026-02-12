@@ -255,7 +255,7 @@ flowchart TD
     D -->|⚡ Actual End < Laycan End| E[DISPATCH<br/>Loading lebih cepat]
     E --> F[Hitung Days Saved:<br/>Days Saved = Laycan End - Actual End]
     F --> G[Hitung Dispatch Amount:<br/>Dispatch = Days Saved × Dispatch Rate]
-    G --> H[💰 Buyer dapat bonus]
+    
     H --> M
     
     D -->|✅ Actual End = Laycan End| I[ON TIME<br/>Loading tepat waktu]
@@ -265,7 +265,7 @@ flowchart TD
     D -->|🐌 Actual End > Laycan End| K[DEMURRAGE<br/>Loading terlambat]
     K --> L[Hitung Days Delay:<br/>Days Delay = Actual End - Laycan End]
     L --> N[Hitung Demurrage Amount:<br/>Demurrage = Days Delay × Demurrage Rate]
-    N --> O[💸 Turangga bayar penalty]
+    
     O --> M
     
     M[Generate Report]
@@ -394,5 +394,6 @@ graph LR
 - System memberikan warning jika ada Laycan Violation, tapi user bisa override jika diperlukan
 - Idle Time bersifat **optional** - hanya dibuat jika memang ada downtime FLF
 - Perhitungan Dispatch/Demurrage dilakukan otomatis oleh system setelah loading selesai
+
 
 
